@@ -8,6 +8,7 @@ import React from "react";
 import "./App.css";
 import Counter from "./Counter";
 import FormExample from "./FormExample";
+import MultiForm from "./MultiForm";
 
 /* function App() {
   const [count, setCount] = useState(0);
@@ -35,15 +36,25 @@ import FormExample from "./FormExample";
 }
 
 export default App; */
-
+/*
 function App() {
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>React Exercise</h1>
       <Counter />
-      <FormExample />
+      <FormExample /> 
     </div>
   );
 }
 
+export default App; */
+
+function App() {
+  return (
+    <div>
+      <h1>React Exercise</h1>
+      <MultiForm />
+    </div>
+  );
+}
 export default App;
